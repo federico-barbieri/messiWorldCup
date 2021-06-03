@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.messi-title {
+  text-align: center;
+}
+
+
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  margin-bottom: 15px;
+
+}
+
+.m2006{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.foto2006 {
+  width: 200px;
+  height: 200px;
+
+}
+
+.m2010{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.foto2010 {
+  width: 200px;
+  height: 200px;
+
+}
+
+.m2014{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.foto2014 {
+  width: 200px;
+  height: 200px;
+
+}
+
+.m2018{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.foto2018 {
+  width: 200px;
+  height: 200px;
+
+}
