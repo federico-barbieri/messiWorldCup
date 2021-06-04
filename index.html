@@ -3,43 +3,79 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Messi</title>
   </head>
   <body>
 
-    <h1 class="messi-title">MESSI'S WORLD CUPS</h1>
+    <main class="main-header">
+      <h1 class="messi-title">MESSI'S WORLD CUPS</h1>
 
-    <div class="container">
+    </main>
+
+
+
+    <main class="container">
+
 
     <section class="card m2006">
       <img class="foto2006" src="img/messi-2006-1.jpeg" alt="">
-      <h2>2006 <br>GERMANY</h2>
+      <div>
+        <h2>2006 <br>GERMANY</h2>
+
+      </div>
+
     </section>
 
-    <section class="card m2010">
+
+    <section class="card m2010" data-aos="fade-left">
       <img class="foto2010" src="img/messi-2010-1.jpeg" alt="">
-      <h2>2010 <br>SOUTH AFRICA</h2>
+      <div>
+        <h2>2010 <br>SOUTH AFRICA</h2>
+
+      </div>
+
     </section>
 
-    <section class="card m2014">
+
+    <section class="card m2014" data-aos="fade-right">
       <img class="foto2014" src="img/messi-2014-1.jpeg" alt="">
-      <h2>2014 <br>BRAZIL</h2>
+      <div>
+        <h2>2014 <br>BRAZIL</h2>
+
+      </div>
+
     </section>
 
-    <section class="card m2018">
+
+    <section class="card m2018" data-aos="fade-left">
       <img class="foto2018" src="img/messi-2018-1.jpeg" alt="">
-      <h2>2018 <br>RUSSIA</h2>
+      <div>
+        <h2>2018 <br>RUSSIA</h2>
+
+      </div>
+
     </section>
 
 
 
 
 
-    </div>
+  </main>
 
 
 
 
-    <script src="app.js" charset="utf-8"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+ AOS.init({
+   offset: 400,
+   duration: 800
+ });
+</script>
   </body>
 </html>

@@ -4,74 +4,63 @@
   box-sizing: border-box;
 }
 
-.container {
-  max-width: 1000px;
-  margin: auto;
+body {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.3rem;
+  background: #f9f9f9;
 }
 
 .messi-title {
-  text-align: center;
+  font-size: 5rem;
 }
 
+.container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: auto;
+  padding: 0 2rem;
+}
 
+.main-header {
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+img{
+  width: 100%;
+
+}
 
 .card {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  margin-bottom: 15px;
-
-}
-
-.m2006{
-  display: flex;
-  flex-direction: row;
+  grid-gap: 2rem;
+  background: #f1f1f1;
+  margin-bottom: 2rem;
   align-items: center;
-  justify-content: center;
+  text-align: center;
 
 }
 
-.foto2006 {
-  width: 200px;
-  height: 200px;
-
+.card img {
+  height: 400px;
 }
 
-.m2010{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+.card > div {
+  padding: 2rem;
 }
 
-.foto2010 {
-  width: 200px;
-  height: 200px;
-
+.card:nth-child(even) img {
+  order: 2;
 }
 
-.m2014{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
-.foto2014 {
-  width: 200px;
-  height: 200px;
-
-}
-
-.m2018{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
-.foto2018 {
-  width: 200px;
-  height: 200px;
-
+@media (max-width: 700px){
+  .card {
+    display: block;
+  }
 }
